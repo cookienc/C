@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    if((a || b) == 1)
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+    if((num1 || num2) == 1)
         printf("1");
     else
         printf("0");
