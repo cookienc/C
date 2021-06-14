@@ -6,7 +6,7 @@ int main()
 
     scanf("%d %d", &num1, &num2);
 
-    printf(num1 ? "0" : (num2 ? "0" : "1"));
+    printf("%d", (num1 && num2));
 
     return 0;
 }
